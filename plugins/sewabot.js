@@ -80,8 +80,11 @@ let handler = async (m, { conn }) => {
 let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m) => {
-m.reply(`*BOT ON 24 JAM*
-SEWA BOT 1 BULAN 10K`)
+m.reply(`
+1 Minggu:10
+1Bulan :35
+Permanent:50
+`)
 }
 
 handler.help = ['sewa']
